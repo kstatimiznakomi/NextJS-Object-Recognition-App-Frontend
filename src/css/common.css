@@ -1,0 +1,230 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.img-load {
+  width: 924px;
+  height: 516px;
+  border-radius: 34px;
+  border-style: dashed;
+  border-color: white;
+}
+
+#img-load {
+  display: none;
+}
+
+.webcam_window {
+  color: white;
+}
+
+.buttons {
+  min-width: 550px;
+}
+
+.webcamVideo {
+  width: 500px;
+  height: 375px;
+  background-color: black;
+}
+
+.link {
+  margin-top: 10px;
+  position: absolute;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+}
+
+.link a {
+  color: white;
+  text-decoration: none;
+  background-color: #001f3f;
+  border-radius: 14px;
+  padding: 10px 57px;
+}
+
+.btn-webcam {
+  border-radius: 5px;
+  height: 50px;
+  border: none;
+}
+
+.link a:hover {
+  background-color: #003165;
+}
+
+.d-none {
+  display: none;
+}
+
+.white {
+  color: white;
+}
+
+.webcam_img {
+  border-radius: 5px;
+  width: 500px;
+  background-color: black;
+  height: 375px;
+  border: none;
+}
+
+body {
+  background-color: #242323 !important;
+}
+
+.hand-img {
+  height: 268px;
+  display: block;
+  align-self: center;
+  justify-self: center;
+}
+
+.grad {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.rec-btn-none {
+  display: none;
+}
+
+.rec-btn {
+  border-radius: 14px;
+  border: none;
+  margin-bottom: 14px;
+  height: 53px;
+  background-color: #000000;
+  color: white;
+}
+
+.rec-btn:hover {
+  background-color: #001825;
+}
+
+div .img-load-input {
+  justify-self: center;
+  color: white;
+  padding: 50px 128px;
+  height: fit-content;
+  border-radius: 14px;
+  background-color: #002f47;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: large;
+  font-family: sans-serif;
+  margin: 57px;
+}
+
+div .img-load-input:hover {
+  background-color: #00476b;
+}
+
+.image-window p {
+  color: white;
+  font-size: 40px;
+  font-family: Inter;
+  font-kerning: none;
+  font-weight: 300;
+  text-align: center;
+  margin-top: revert;
+}
+
+.w-min {
+  width: min-content;
+}
+
+.file__input {
+  padding: 60px 100px;
+  background-color: #282c34;
+  border-radius: 15px;
+  font-size: larger;
+}
+.file__input:hover {
+  background-color: #002f47;
+}
+
+.image-window {
+  border-radius: 34px;
+  border-color: white;
+  background-color: #1c1c1c;
+  padding: 10px 25px;
+}
+
+.loader__files {
+  width: 1000px;
+  background-color: #1c1c1c;
+  border-radius: 15px;
+  padding: 30px;
+  min-width: 397px;
+}
+
+.active {
+  background-color: #1c1c1c;
+}
+
+.btn-webcam {
+  border-radius: 5px;
+  height: 50px;
+  border: none;
+}
+
+.passive {
+  background-color: #4f4f4f !important;
+}
+.passive:hover {
+  background-color: white;
+}
+
+.loader__title {
+  font-size: xx-large;
+}
+
+.cursor-locked {
+  cursor: not-allowed;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.sidebar-point {
+  background-color: #141414;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.sidebar-point:hover {
+  background-color: #363636;
+  transition: opacity 1s;
+}
+
+input {
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+}
+
+.load__img {
+  height: 130px;
+}
+
+.loader__bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader__btn {
+  background-color: white;
+  margin-top: 10px;
+  padding: 15px 50px;
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=common.css.map */
